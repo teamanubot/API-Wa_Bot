@@ -1,0 +1,13 @@
+services:
+  whatsapp:
+    build: ./node
+    container_name: whatsapp-gateway
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./node/session:/app/session
+      - /root:/data
+    environment:
+      - PORT=3000
+    env_file:
+      - .env
