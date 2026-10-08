@@ -93,4 +93,4 @@ Kemudian jalankan ulang `app.js`, QR akan muncul kembali.
 ## 🙏 Terima Kasih
 
 * [Baileys](https://github.com/WhiskeySockets/Baileys)
-* Dibuat dengan ❤️ oleh Elfan Tampan
+* Rework by TeamAnuBot
